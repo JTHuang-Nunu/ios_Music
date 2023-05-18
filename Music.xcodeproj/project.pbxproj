@@ -16,6 +16,9 @@
 		287D84D32A15D4A600BD6331 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D84D22A15D4A600BD6331 /* MusicTests.swift */; };
 		287D84DD2A15D4A600BD6331 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D84DC2A15D4A600BD6331 /* MusicUITests.swift */; };
 		287D84DF2A15D4A600BD6331 /* MusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D84DE2A15D4A600BD6331 /* MusicUITestsLaunchTests.swift */; };
+		287D84EE2A15D4BF00BD6331 /* You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 287D84EB2A15D4BF00BD6331 /* You.mp3 */; };
+		287D84EF2A15D4BF00BD6331 /* Promise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 287D84EC2A15D4BF00BD6331 /* Promise.mp3 */; };
+		287D84F02A15D4BF00BD6331 /* Avid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 287D84ED2A15D4BF00BD6331 /* Avid.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		287D84D82A15D4A600BD6331 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		287D84DC2A15D4A600BD6331 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		287D84DE2A15D4A600BD6331 /* MusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		287D84EB2A15D4BF00BD6331 /* You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = You.mp3; sourceTree = "<group>"; };
+		287D84EC2A15D4BF00BD6331 /* Promise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Promise.mp3; sourceTree = "<group>"; };
+		287D84ED2A15D4BF00BD6331 /* Avid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Avid.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				287D84C12A15D4A300BD6331 /* Main.storyboard */,
 				287D84C42A15D4A600BD6331 /* Assets.xcassets */,
 				287D84C62A15D4A600BD6331 /* LaunchScreen.storyboard */,
+				287D84ED2A15D4BF00BD6331 /* Avid.mp3 */,
+				287D84EC2A15D4BF00BD6331 /* Promise.mp3 */,
+				287D84EB2A15D4BF00BD6331 /* You.mp3 */,
 				287D84C92A15D4A600BD6331 /* Info.plist */,
 			);
 			path = Music;
@@ -231,9 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287D84F02A15D4BF00BD6331 /* Avid.mp3 in Resources */,
 				287D84C82A15D4A600BD6331 /* LaunchScreen.storyboard in Resources */,
 				287D84C52A15D4A600BD6331 /* Assets.xcassets in Resources */,
+				287D84EE2A15D4BF00BD6331 /* You.mp3 in Resources */,
 				287D84C32A15D4A300BD6331 /* Main.storyboard in Resources */,
+				287D84EF2A15D4BF00BD6331 /* Promise.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
